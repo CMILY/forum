@@ -19,9 +19,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
+<script src="js/jquery.vide.min.js"></script>
 </head>
 <body>
-<script src="js/jquery.vide.min.js"></script>
 <!-- main -->
 <%String contextPath=request.getContextPath();%>
 <div data-vide-bg="video/Ipad">
@@ -29,13 +29,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="w3ls-header">
 			<div class="header-main">
 				<div class="videologin">
-				<div class="top-login first">
-					<div class="border">
-						<span><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
-					</div>
-				</div>
-				<h2>Login Form</h2>
-					<div class="header-bottom">
+					<div class="header-bottom" style="margin-top:20px">
 						<div class="header-right w3agile">
 							<div class="header-left-bottom agileinfo">
 								<form action="<%=contextPath%>/LoginServlet" method="post">
@@ -47,13 +41,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 										<i class="fa fa-unlock-alt" aria-hidden="true" ></i>
 										<input type="password" name="password" placeholder="密码"/>
 									</div>
-					
-									<a href="<%=contextPath%>/Register.jsp">Register</a>
-									<a href="<%=contextPath%>/Index.jsp">HomePage</a>
-									
 									<div class="bottom">
 										<input type="submit" value="Login" />
 									</div>
+									<a href="<%=contextPath%>/Register.jsp">Register</a>
+									<a href="<%=contextPath%>/Index.jsp">HomePage</a>
 									
 							</div>
 				</form>	

@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Career Multi Forms a Flat Responsive Widget Template :: w3layouts</title>
+<title>注册</title>
 <!-- ajax -->
 <script type="text/javascript" src="js/ajax.js"></script>
 <!-- Meta tag Keywords -->
@@ -40,12 +40,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="header-main">	
 			
 			<div class="videoregister">
-				<div class="top-login second">
-					<div class="border">
-						<span><i class="fa fa-user-circle" aria-hidden="true"></i></span>
-					</div>
-				</div>
-				<h3>register Form</h3>
 					<div class="header-bottom">
 						<div class="header-right w3agile">
 							<div class="header-left-bottom agileinfo">

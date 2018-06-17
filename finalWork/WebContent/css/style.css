@@ -150,7 +150,7 @@ h1 {
     font-weight: 200;
     letter-spacing: 1px;
     margin-left:20px;
-    margin-bottom:15px;
+    margin-top:25px;
 }
 .videologin a:hover {
     font-weight:500;
@@ -204,7 +204,7 @@ i.fa.fa-facebook, i.fa.fa-twitter, i.fa.fa-google-plus {
 }
 .header-main {
     width: 65%;
-    margin: 7em auto 0;
+    margin: auto 0;
     margin-left:400px;
     padding-left:300px;
 }
